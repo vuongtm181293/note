@@ -1,0 +1,38 @@
+##### KHÓA HỌC ANGULAR ####################
+$ npm install -g @angular/cli
+ -- cli is spell of "coment line interface "
+ng new project-name (tạo project angular)
+
+
+
+### Version 
+ng --version
+
+
+
+### create new project 
+ng new app_name // tyle=scss
+ng new my-first-app --style=scss // tạo project Kiểu bootstrap
+ng new angular-first-steps --routing=true --style=scss
+
+
+
+### Run app 
+$ ng serve //chạy ứng dụng
+ng serve --o  --port 4000 // là mở luôn trình duyệt 
+
+
+
+### cài đặt yarn 
+$ npm install -g yarn
+
+
+
+### create new compnent cmd 
+ng generate component component_name
+ng g c Component_name
+
+
+### Create service 
+ng g s service_name
+

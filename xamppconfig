@@ -1,0 +1,4 @@
+=====xampp mysql
+xampp_stop
+xampp_start
+xampp_control

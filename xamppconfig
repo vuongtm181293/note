@@ -2,3 +2,5 @@
 xampp_stop
 xampp_start
 xampp_control
+
+contactmanager user/pass =root/root

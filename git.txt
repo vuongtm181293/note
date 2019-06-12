@@ -12,3 +12,5 @@ git log origin/master
 ### Cấu hình git 
 git config --list
 $ git config --global
+
+### add 1

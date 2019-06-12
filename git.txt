@@ -1,4 +1,4 @@
-================git
+###### GIT CMD ######
 git status
 
 git add .
@@ -8,7 +8,6 @@ git commit -m "comment"
 git log remotename/branchname
 
 git log origin/master
-
 
 ### Cấu hình git 
 git config --list

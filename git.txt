@@ -8,3 +8,8 @@ git commit -m "comment"
 git log remotename/branchname
 
 git log origin/master
+
+
+### Cấu hình git 
+git config --list
+$ git config --global

@@ -13,4 +13,5 @@ git log origin/master
 git config --list
 $ git config --global
 
-### add 1
+### CHANGE IN SOURCETREE 
+C:\Users\vuongtm1\AppData\Local\Atlassian\SourceTree -- delete file passwd

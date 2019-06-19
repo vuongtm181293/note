@@ -37,8 +37,13 @@ $git push -u origin feature_branch_name
 ### Config lưu lại tài khoản 
 $git config credential.helper store
 
-###
-git version 1.0
+##### git Tag (version)
 
--- update version 1.1
--- update version 1.2
+### git create tag 
+git tag tag_name 
+
+### git push remote tag
+git push origin tag_name
+
+### git checkout tag (version)
+git checkout tags/tag_name  		-- ex : git checkout tags/v1.1

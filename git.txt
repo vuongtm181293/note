@@ -16,6 +16,9 @@ Khi đó sẽ xảy ra conflig ==> mở file ra merge
 ->$git add -a -- add thay đổi
 ->$git commit -m 'merge brach_other'
 now, you can delete brach_other: $git brach -d brach_other  
+
+ ## merge with tool 
+ git mergetool file_name
  
 ### Cấu hình $git 
 $git config --list
@@ -33,6 +36,7 @@ $git push -u origin feature_branch_name
 
 ### Config lưu lại tài khoản 
 $git config credential.helper store
+
 
 
 -- fix and merge

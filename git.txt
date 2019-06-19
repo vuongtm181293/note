@@ -33,5 +33,3 @@ $git push -u origin feature_branch_name
 
 -- fix and merge
 
-
-

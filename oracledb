@@ -1,2 +1,15 @@
-global database name: db11g
-pass:123456
+
+
+
+
+
+### LOCAL DATABASE
+
+db11g	books_admin@//localhost:1521/db11g
+
+CREATE USER books_admin IDENTIFIED BY MyPassword;
+GRANT CONNECT TO books_admin;
+GRANT CONNECT, RESOURCE, DBA TO books_admin;
+GRANT CREATE SESSION GRANT ANY PRIVILEGE TO books_admin;
+GRANT UNLIMITED TABLESPACE TO books_admin;
+GRANT SELECT, INSERT, UPDATE, DELETE ON schema.books TO books_admin;

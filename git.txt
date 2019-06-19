@@ -41,3 +41,4 @@ $git config credential.helper store
 git version 1.0
 
 -- update version 1.1
+-- update version 1.2

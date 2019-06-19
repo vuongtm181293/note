@@ -16,9 +16,9 @@ $ git config --global
 ### CHANGE IN SOURCETREE 
 C:\Users\vuongtm1\AppData\Local\Atlassian\SourceTree -- delete file passwd
 
-
 ### Delete the feature branch:	
+$git branch -d <branchname>
 
-git branch -d <branchname>
+
 
 ==> git brach master

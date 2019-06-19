@@ -6,6 +6,22 @@ ng new project-name (tạo project angular)
 ### Version 
 ng --version
 
+
+
+############# steps built app angular
+
+npm install -g @angular/cli
+ng new my-app --routing=true 
+cd my-app
+ng serve --open
+
+### Sử dụng server mock json 
+npm install -g json-server 
+
+--> tạo một file json: touch db.json 
+--> cat db.json
+--> khởi tạo server: server-json --watch db.json
+
 ### create new project 
 ng new app_name // tyle=scss
 ng new my-first-app --style=scss // tạo project Kiểu bootstrap
@@ -30,20 +46,6 @@ ng g s service_name --module-app
 
 ### Creating a Routing Module
 ng generate module app-routing --module app --flat
-
-############# steps built app angular
-
-npm install -g @angular/cli
-ng new my-app --routing=true 
-cd my-app
-ng serve --open
-
-### Sử dụng server mock json 
-npm -g json-server 
-
---> tạo một file json: touch db.json 
---> cat db.json
---> khởi tạo server: server-json --watch db.js
 
 
 

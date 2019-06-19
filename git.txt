@@ -31,7 +31,7 @@ $git branch -d <branchname>
 ### Push your branch to the remote repository:
 $git push -u origin feature_branch_name
 
---brach big1
+-- fix and merge
 
 
 

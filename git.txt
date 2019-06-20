@@ -47,3 +47,10 @@ git push origin tag_name
 
 ### git checkout tag (version)
 git checkout tags/tag_name  		-- ex : git checkout tags/v1.1
+
+### git tash (tash -- lưu trữ, giấu đi) trong trạng thái đang làm dở công việc nào đó mà phải chuyển sang ưu tiên công việc khác muốn lưu lại
+
+git stash save 
+git stash list
+git stash show stash@{i}
+git stash apply stash@{i}

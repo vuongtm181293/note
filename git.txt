@@ -54,3 +54,4 @@ git stash save
 git stash list
 git stash show stash@{i}
 git stash apply stash@{i}
+git stash clear -- clear all stash

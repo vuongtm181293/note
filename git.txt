@@ -1,4 +1,8 @@
 ###### $git CMD ######
+
+### git add new remote repository
+git remote add origin link_git.git
+
 $git status
 $git add . -- add new_file + modified 
 $git add -a -- add new_file + modified + deletedFile

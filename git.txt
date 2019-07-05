@@ -52,7 +52,16 @@ git push origin tag_name
 ### git checkout tag (version)
 git checkout tags/tag_name  		-- ex : git checkout tags/v1.1
 
-### git tash (tash -- lưu trữ, giấu đi) trong trạng thái đang làm dở công việc nào đó mà phải chuyển sang ưu tiên công việc khác muốn lưu lại
+### git delete tag
+git tag --delete tagname
+git push --delete origin tagname
+
+
+
+
+
+
+#### git tash (tash -- lưu trữ, giấu đi) trong trạng thái đang làm dở công việc nào đó mà phải chuyển sang ưu tiên công việc khác muốn lưu lại
 
 git stash save  or git stash create "your_comment"
 git stash list

@@ -1,24 +1,30 @@
 
+##### Start SQL PLUS
+username:	sqlplus / as sysdba
+password:	admin
+[or]
+username:	/ as sysdba
+[or]
+username:	sys as sysdba
+password:	admin
 
-
-
+### Test connect
+connect user_name/password
+[ex] connect BIDV_ADMIN/padmin
 
 ### LOCAL DATABASE
 
-db11g	books_admin@//localhost:1521/db11g
-
-CREATE USER books_admin IDENTIFIED BY MyPassword;
-GRANT CONNECT TO books_admin;
-GRANT CONNECT, RESOURCE, DBA TO books_admin;
-GRANT CREATE SESSION GRANT ANY PRIVILEGE TO books_admin;
-GRANT UNLIMITED TABLESPACE TO books_admin;
-GRANT SELECT, INSERT, UPDATE, DELETE ON schema.books TO books_admin;
-
-
 ============== CREATE USER BIDV
-CREATE USER BIDV_ADMIN IDENTIFIED BY MyPassword;
+CREATE USER BIDV_ADMIN IDENTIFIED BY padmin;
 GRANT CONNECT TO BIDV_ADMIN;
 GRANT CONNECT, RESOURCE, DBA TO BIDV_ADMIN;
 GRANT CREATE SESSION GRANT ANY PRIVILEGE TO BIDV_ADMIN;
 
 --> chưa tạo xong
+
+
+
+
+
+
+

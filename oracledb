@@ -28,6 +28,11 @@ GRANT CONNECT, RESOURCE, DBA TO GOISPDV;
 GRANT CREATE SESSION GRANT ANY PRIVILEGE TO GOISPDV;
 
 
+-- chuyển từ định dạng utf8 sang tiếng việt và ngược lại
+SELECT ASCIISTR('hoặc hủy duyệt') FROM DUAL;
+select unistr('\0110\00e3 t\1ed3n t\1ea1i \0110\0103ng k\00fd b\1ea3o hi\1ec3m cho Th\1ebb') FROM DUAL;
+
+
 
 
 

@@ -36,13 +36,34 @@ select unistr('\0110\00e3 t\1ed3n t\1ea1i \0110\0103ng k\00fd b\1ea3o hi\1ec3m c
 
 
 
-### SERVER
+### SERVER dangkytindung
+
 connect name:	DA_BIDV
 username:		DA_BIDV
 pass:			DA_BIDV
 hostname:		192.168.50.123
 port:			1521
 servicename:	tvsdb
+
+
+jdbc:oracle:thin:@10.53.253.29:1521/newbsms11 
+jdbc:oracle:thin:@192.168.50.123:1521/tvsdb
+
+user_name/password:	dknhdtnew/dknhdtnew
+
+
+###============ SERVER bao lanh
+
+connect name:	BIDV_XNBL
+username:		BIDV_XNBL
+pass:			BIDV_XNBL
+hostname:		192.168.50.123
+port:			1521
+servicename:	tvsdb
+
+
+
+
 
 
 

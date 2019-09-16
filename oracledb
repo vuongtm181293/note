@@ -63,6 +63,36 @@ servicename:	tvsdb
 
 
 
+########## bảo lãnh 
+mình gửi thông tin database nhé 
+#u/p:qllchs/qllchs
+db12cp2 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.53.253.59)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVICE_NAME = db12cp2)
+    )
+  )
+  
+######### Thu phí
+
+#TPGOISPDV/TPGOISPDV
+TPGOISPDV =
+(DESCRIPTION= 
+    (ADDRESS= 
+        (PROTOCOL=TCP) 
+        (HOST=10.53.252.97) 
+        (PORT=1521)
+    ) 
+    (CONNECT_DATA= 
+        (SERVER=dedicated) 
+        (SERVICE_NAME =IBMB12CPDB3)
+    )
+)
+ jdbc:oracle:thin:@10.53.252.97:1521/IBMB12CPDB3
+
 
 
 

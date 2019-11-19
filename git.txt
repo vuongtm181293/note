@@ -1,15 +1,15 @@
 
 ###### $git CMD ######
 
-#### DELETE REF GIT REPO 
+################ DELETE REF GIT REPO 
 #Be careful, dangerous command, it will erase your repository 
 # Make sure that you run this from the right folder 
 rm -rf .git
 
-### show remote repository
+################ show remote repository
 git config --get remote.origin.url
 
-### git add new remote repository
+################ git add new remote repository
 git remote add origin link_git.git
 
 $git status
@@ -22,8 +22,19 @@ $git commit -m "comment"		-- commit file to local brach, when file added
 $git log remotename/branchname
 $git log origin/master
 
-### $git merge 
-->$git check out master
+################# GIT MERGE 
+
+### merge branch_topic
+git checkout master
+git merge branch_topic
+
+### If have conflig then reset merge
+git merge branch_topic --abort 
+
+### git reset merger 
+git merge --abort 
+
+
 ->$git merge brach_other
 Khi đó sẽ xảy ra conflig ==> mở file ra merge 
 ->$git add -a -- add thay đổi
@@ -33,24 +44,57 @@ now, you can delete brach_other: $git brach -d brach_other
  ## merge with tool 
  git mergetool file_name
  
-### Cấu hình $git 
+################ GIT CONFIG $git 
 $git config --list
 $git config --global
 
-### CHANGE IN SOURCETREE 
+################ CHANGE IN SOURCETREE 
 C:\Users\vuongtm1\AppData\Local\Atlassian\SourceTree -- delete file passwd
+
+
+
+############# LOCAL - BRANCH
+
+### List local branch
+git branch
+
+### Add new local branch
+git branch new_branch_name
 
 ### Delete the feature branch:	
 $git branch -d <branchname>
-$git branch -d <branchname>
 
-### Push your branch to the remote repository:
+### Rename local branch
+git branch old_branch_name -m new_branch_name
+
+### when push local branch to ==> remote
+git push origin local_branch
+
+### checkout the branch you want
+git fetch origin 
+git branch branch_in_remote origin/branch_in_remote
+
+
+#############	REMOTE- BRANCH
+
+### list remote brach
+git ls-remote origin 
+
+### Push your branch to the remote repository
 $git push -u origin feature_branch_name
 
-### Config lưu lại tài khoản 
+### Delete remote branch
+git push <remote_name> --delete <branch_name>
+ 
+
+
+
+############# CONFIF SAVE ACOUNT
 $git config credential.helper store
 
-##### git Tag (version)
+
+
+############ git Tag (version)
 
 ### git create tag 
 git tag tag_name 
@@ -64,9 +108,6 @@ git checkout tags/tag_name  		-- ex : git checkout tags/v1.1
 ### git delete tag
 git tag --delete tagname
 git push --delete origin tagname
-
-
-
 
 
 

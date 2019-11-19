@@ -1,3 +1,8 @@
+######## CD
+cd :D 
+cd ..
+
+
 ########### PORT WINDOWN
 Hiển thị tất cả các port đang chạy trong windown
 netstat -a -o -n

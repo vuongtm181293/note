@@ -1,4 +1,6 @@
 ##### KHÓA HỌC ANGULAR ####################
+Để bắt đầu với angular chúng ta cài nodejs vào trang chủ dowload cài --> next --> next
+
 $ npm install -g @angular/cli
  -- cli is spell of "coment line interface "
 ng new project-name (tạo project angular)
@@ -6,6 +8,10 @@ ng new project-name (tạo project angular)
 ### Version 
 ng --version
 
+
+############# INSTALL EXTENSIONS SUPPORT CODING 
+npm intellisense 
+path intellisense
 
 
 ############# steps built app angular
@@ -15,7 +21,8 @@ ng new my-app --routing=true
 cd my-app
 ng serve --open
 
-### Sử dụng server mock json 
+### Sử dụng server mock json  refer https://www.youtube.com/watch?v=IA1gy-A-AgY&list=PLWBrqglnjNl1qQw2nH5O1A8W_DVC3xo-V&index=14
+
 npm install -g json-server 
 
 --> tạo một file json: touch db.json 

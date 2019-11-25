@@ -21,5 +21,8 @@ test		: Là test framework ví dụ junit chẳng hặn
 package 	: là cách đóng gói project thành gói nào đấy jar or war 
 verify 		: Là đánh giá result test xem nó có đúng hay không
 install 	: load những dependences của project 
-deploy 		: đưa các gói buil ra một folder hay web server 
+deploy 		: đưa các gói buil ra một folder hay web server  
+
+### Run
+mvn spring-boot:run
 	

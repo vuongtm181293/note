@@ -1,2 +1,0 @@
-Front dành cho khách hàng: http://10.53.21.198:10039/DKSME
-BackOffice dành cho cán b?: http://10.53.21.198:10039/QTDKSME

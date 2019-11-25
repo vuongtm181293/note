@@ -1,2 +1,0 @@
-﻿- cách làm ẩn một thư mục(Trong suốt) https://sites.google.com/site/krongnem/home/itclub/computertips/folder ==> cuối cùng để nó sắp xếp dưới dạng lưới
-- cách ẩn một thư mục: chọn ^ góc phải màn hình --> view --> ckeck hiddent

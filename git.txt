@@ -121,5 +121,3 @@ git stash clear -- clear all stash
 
 #### clean cache user
 git config --global http.sslVerify false
-##conflig in here
-

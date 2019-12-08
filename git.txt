@@ -119,3 +119,6 @@ git stash show stash@{i}
 git stash apply stash@{i}
 git stash clear -- clear all stash
 
+
+
+#git branch1

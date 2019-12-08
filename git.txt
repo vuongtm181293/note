@@ -119,3 +119,7 @@ git stash show stash@{i}
 git stash apply stash@{i}
 git stash clear -- clear all stash
 
+#### clean cache user
+git config --global http.sslVerify false
+
+

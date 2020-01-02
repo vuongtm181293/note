@@ -31,3 +31,10 @@ Props Down -> Truyền data từ thằng cha sang con
 Props Up   -> Truyền sự kiện thông báo cho thằng cha để thay đổi data
 	- custom event
 Tag slot tag -> Truyền cấu trục html theo thẻ
+
+### Rang buộc thuộc tính của thẻ
+v-bind Ràng buộc atribute
+
+### sự kiện là v-on:Tên_Sự_kiện(click,....)
+
+### two way binding

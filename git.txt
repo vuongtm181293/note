@@ -89,7 +89,7 @@ git push <remote_name> --delete <branch_name>
 
 
 
-############# CONFIF SAVE ACOUNT
+############# CONFIF SAVE ACOUNT save pass
 $git config credential.helper store
 
 

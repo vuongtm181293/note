@@ -38,3 +38,9 @@ v-bind Ràng buộc atribute
 ### sự kiện là v-on:Tên_Sự_kiện(click,....)
 
 ### two way binding
+
+### watch theo dõi biến nếu có thay đổi thì thực hiện một function nào đấy
+
+### computed thực hiện như function nhưng không có dấu ngoặc và thực hiện chỉ định
+
+### v-on="method_name" tương tứng với @click="method_name"

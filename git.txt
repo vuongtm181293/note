@@ -1,5 +1,6 @@
 
 ###### $git CMD ######
+#### CREDENTIAL in windown
 
 ################ DELETE REF GIT REPO 
 #Be careful, dangerous command, it will erase your repository 
@@ -15,7 +16,7 @@ git remote add origin link_git.git
 $git status
 $git add . -- add new_file + modified 
 $git add -a -- add new_file + modified + deletedFile
-$git add -u -- add modified + deletedFile
+$git add -u -- 1
 $git add * 
 
 $git commit -m "comment"		-- commit file to local brach, when file added
@@ -87,11 +88,8 @@ $git push -u origin feature_branch_name
 git push <remote_name> --delete <branch_name>
  
 
-
-
 ############# CONFIF SAVE ACOUNT save pass
 $git config credential.helper store
-
 
 
 ############ git Tag (version)
@@ -121,3 +119,35 @@ git stash clear -- clear all stash
 
 #### clean cache user
 git config --global http.sslVerify false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,9 +2,6 @@
 http://hqh.com.vn/
 
 
-
-
-
 ##### LOGING
 %d : thời gian ghi message, có thể chấp nhận tất các các định dạng SimperDateFormat cho phép
 %thread : tên thread ghi message
@@ -15,3 +12,7 @@ $-5level : level ghi log (các mức level có thể là trace, debug, info, war
 %n : ngắt dòng
 %magenta() : đặt màu của message đầu ra trong dấu (), có thể chọn các màu khác
 highlight() : đặt màu của message đầu ra trong dấu (), tùy thuộc vào level log (ví dụ ERROR là màu đỏ)
+
+#### JPA 
+	Mapping when use native query
+		https://www.baeldung.com/jpa-queries-custom-result-with-aggregation-functions

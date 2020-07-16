@@ -117,6 +117,15 @@ TPGOISPDV =
     )
 )
  jdbc:oracle:thin:@10.53.252.97:1521/IBMB12CPDB3
+ 
+ 
+#### scms 
+user scms/Scms2020
+	oracle base: C:\app\scms
+	software laction: C:\app\scms\product\12.1.0\dbhome_1
+	
+	Global database name: scms/scms
+	pluggable database name: tvscms
 
 
 
